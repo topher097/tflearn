@@ -36,7 +36,7 @@ setup(name='tflearn',
       install_requires=[
           'numpy',
           'six',
-          'Pillow>=10.0.0'
+          'Pillow'
       ],
       test_suite='tests',
       cmdclass={'test': PyTest},
