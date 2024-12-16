@@ -24,7 +24,7 @@ class PyTest(TestCommand):
 
 
 setup(name='tflearn',
-      version='0.5.0',
+      version='0.6.0',
       description='Deep Learning Library featuring a higher-level API for '
                   'TensorFlow',
       author='TFLearn contributors',
@@ -36,7 +36,7 @@ setup(name='tflearn',
       install_requires=[
           'numpy',
           'six',
-          'Pillow'
+          'Pillow>=10.0.0'
       ],
       test_suite='tests',
       cmdclass={'test': PyTest},

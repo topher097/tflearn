@@ -574,7 +574,7 @@ def load_image(in_image):
 
 
 def resize_image(in_image, new_width, new_height, out_image=None,
-                 resize_mode=Image.ANTIALIAS):
+                 resize_mode=Image.LANCZOS):
     """ Resize an image.
 
     Arguments:
